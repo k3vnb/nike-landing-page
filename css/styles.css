@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+
+.nav-top {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom:.5px solid lightgrey;
+  color: #8D8D8D;
+}
+
+.nav-top-left {
+    display: flex;
+    height: 100%;
+}
+.top-left-menu {
+  border-right: .5px solid lightgrey;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+.jordan {
+  width: 15px;
+}
+.nav-top-right {
+  /*padding-right: 4%;*/
+  width: 100%;
+  min-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 15px;
+}
+.nav-top-right ul {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-top-right li {
+  margin-right: 15px;
+}
+.flag {
+  height: 15px;
+  width: auto;
+}
+
+.nav-middle {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nike-logo {
+  width: 100px;
+}
+.nav-middle-right {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px lightgrey solid;
+  margin-right: 30px;
+  padding-left: 10px;
+}
+.nav-middle-middle li{
+  margin-right: 20px;
+}
+.nav-middle-middle li:last-child{
+  margin-right: 0;
+}
+.nav-middle-right p {
+  color: lightgrey;
+  margin: 10px;
+}
+.nav-bottom {
+  height: 60px;
+}
+.hero {
+  background-image: url("../img/hero.jpg");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 56vw;
+  min-height: 433px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 40px;
+}
+.hero h2 {
+  background-color: black;
+  padding: 15px;
+}
+.gallery {
+  padding-top: 5%;
+  height: 36vw;
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(150deg, rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%);
+}
+.block {
+  width: 20%;
+  height: 70%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  box-shadow: .5px .5px .5px lightgrey;
+}
+.block img {
+  width: 100%;
+}
